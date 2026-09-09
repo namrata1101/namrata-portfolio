@@ -136,7 +136,7 @@ function Contact() {
             {/* Social Links Bar */}
             <div className="flex items-center gap-4 pt-2">
               <a
-                href="https://www.linkedin.com/in/namrata-sarkar-46b328202/"
+                href="https://www.linkedin.com/in/namratasarkar9"
                 target="_blank"
                 rel="noreferrer"
                 className="flex-1 flex items-center justify-center gap-2 py-3 bg-slate-900 hover:bg-indigo-600 hover:text-white border border-slate-800 text-slate-300 rounded-2xl font-semibold text-xs transition-all duration-300 shadow-sm"

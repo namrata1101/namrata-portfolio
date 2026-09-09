@@ -71,13 +71,13 @@ function About() {
           
           <div className="lg:col-span-7 text-left space-y-4">
             <h3 className="text-2xl font-bold text-white">
-              Passionate About Scalable Code & Bulletproof Security
+              Full-Stack Software Developer & Security Specialist
             </h3>
             <p className="text-slate-300 text-base leading-relaxed">
-              With a Bachelor of Technology in Engineering from Heritage Institute of Technology and over 2 years of industry experience, I thrive at the intersection of frontend elegance and backend robustness.
+              Full-stack software developer with 2+ years of experience building and securing large-scale, mission-critical web applications. I have strong JavaScript foundations with hands-on expertise in React.js, REST API integration, responsive UI development, and application performance optimization.
             </p>
             <p className="text-slate-400 text-sm leading-relaxed">
-              At AeoLogic Technologies, working on behalf of the National Informatics Centre (NIC), I have delivered software solutions that serve citizen-scale workloads. Beyond writing modular code in React and Laravel, I place strong emphasis on zero-vulnerability security audits, proactive UI testing, performance tuning, and cross-functional team collaboration.
+              Through contractual engagement with Aeologic Technologies at the National Informatics Centre (NIC), MeitY, I build citizen-facing platforms like the West Bengal Taxation Tribunal (WBTT) website, eliminate 100+ critical security vulnerabilities to achieve full audit compliance, optimize REST API response times, and collaborate within cross-functional Agile teams.
             </p>
           </div>
 

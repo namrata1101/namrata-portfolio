@@ -20,7 +20,7 @@ export const projects = [
       "Optimized relational database schemas and queries in PostgreSQL"
     ],
     github: "https://github.com/namrata1101",
-    live: "https://www.linkedin.com/in/namrata-sarkar-46b328202/",
+    live: "https://www.linkedin.com/in/namratasarkar9",
     featured: true
   },
   {
@@ -42,7 +42,7 @@ export const projects = [
       "Modular Python codebase designed for seamless integration"
     ],
     github: "https://github.com/namrata1101",
-    live: "https://www.linkedin.com/in/namrata-sarkar-46b328202/",
+    live: "https://www.linkedin.com/in/namratasarkar9",
     featured: true
   }
 ];

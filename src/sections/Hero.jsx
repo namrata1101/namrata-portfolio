@@ -36,7 +36,7 @@ function Hero() {
 
             {/* Summary */}
             <p className="mt-6 text-base sm:text-lg text-slate-400 leading-relaxed max-w-2xl">
-              Software Developer with 2+ years of hands-on experience building and securing large-scale, mission-critical web applications for government clients (NIC, Govt of West Bengal). Proven track record in security hardening, resolving critical vulnerabilities (XSS, authentication flaws, file upload exploits), and delivering scalable, audit-compliant digital solutions.
+              Full-stack software developer with 2+ years of experience building and securing large-scale, mission-critical web applications. Strong JavaScript foundations with hands-on experience in React.js, REST API integration, responsive UI development, and application performance optimization.
             </p>
 
             {/* Tech Stack Pills */}
@@ -59,9 +59,8 @@ function Hero() {
             {/* CTA Buttons */}
             <div className="flex flex-wrap gap-4 mt-8 items-center">
               <a
-                href="/Namrata_Sarkar_Resume.pdf"
-                target="_blank"
-                rel="noopener noreferrer"
+                href="/Namrata Sarkar_Resume.pdf"
+                download="Namrata Sarkar_Resume.pdf"
                 className="flex items-center gap-2.5 px-6 py-3.5 bg-indigo-600 hover:bg-indigo-500 text-white font-semibold rounded-xl transition-all duration-300 shadow-lg shadow-indigo-600/30 hover:shadow-indigo-600/50 hover:-translate-y-0.5"
               >
                 <FaDownload className="text-sm" />
@@ -88,7 +87,7 @@ function Hero() {
                   <FaGithub size={20} />
                 </a>
                 <a
-                  href="https://www.linkedin.com/in/namrata-sarkar-46b328202/"
+                  href="https://www.linkedin.com/in/namratasarkar9"
                   target="_blank"
                   rel="noreferrer"
                   className="p-3 bg-slate-900 hover:bg-slate-800 border border-slate-800 text-slate-300 hover:text-indigo-400 rounded-xl transition-all hover:scale-105 hover:border-slate-700"
@@ -117,8 +116,8 @@ function Hero() {
                 <p className="text-xs sm:text-sm text-slate-400 font-medium mt-1">Govt Web Applications</p>
               </div>
               <div>
-                <p className="text-2xl sm:text-3xl font-extrabold text-white">100%</p>
-                <p className="text-xs sm:text-sm text-emerald-400 font-medium mt-1">Audit Compliance</p>
+                <p className="text-2xl sm:text-3xl font-extrabold text-white">100+</p>
+                <p className="text-xs sm:text-sm text-emerald-400 font-medium mt-1">Vulnerabilities Fixed</p>
               </div>
             </div>
           </div>
@@ -145,10 +144,10 @@ function Hero() {
                   <div className="flex items-center justify-between">
                     <div>
                       <p className="text-xs font-semibold text-white">Namrata Sarkar</p>
-                      <p className="text-[11px] text-indigo-300">Software Developer @ AeoLogic</p>
+                      <p className="text-[11px] text-indigo-300">Software Developer @ NIC, MeitY</p>
                     </div>
                     <span className="px-2 py-0.5 rounded-full text-[10px] font-semibold bg-indigo-500/20 text-indigo-300 border border-indigo-500/30">
-                      NIC Client
+                      Aeologic
                     </span>
                   </div>
                 </div>

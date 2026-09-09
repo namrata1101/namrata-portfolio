@@ -4,37 +4,36 @@ function Experience() {
   const experiences = [
     {
       role: "Software Developer",
-      company: "AeoLogic Technologies Pvt. Ltd.",
-      client: "National Informatics Centre (NIC), Government of West Bengal",
+      company: "National Informatics Centre (NIC), MeitY",
+      engagement: "Contractual engagement through Aeologic Technologies Pvt. Ltd.",
       period: "Sep 2024 – Present",
       location: "Kolkata, India",
       type: "Full-Time",
       description:
-        "Building, maintaining, and securing citizen-scale web platforms under the aegis of NIC for the Government of West Bengal.",
+        "Engineered and maintained large-scale, mission-critical government web applications, delivering responsive, secure, and audit-compliant solutions.",
       bulletPoints: [
-        "Developed and maintained 5+ large-scale, mission-critical government web applications using React.js, Laravel, and PostgreSQL, serving thousands of citizens.",
-        "Developed and deployed the West Bengal Taxation Tribunal (WBTT) website to production, delivering a responsive, secure, and user-friendly public-facing web application for a government tribunal.",
-        "Implemented frontend and backend features, REST API integration, database-driven functionality, responsive UI, and production deployment while adhering to government requirements.",
-        "Resolved critical security vulnerabilities including XSS, insecure file uploads, and authentication flaws, achieving full security-audit compliance and reducing application risk.",
-        "Designed and optimized scalable application architectures, improving performance, reliability, maintainability, and user experience across existing government systems.",
-        "Conducted UI/user-level testing and security assessments, identified defects and vulnerabilities, and collaborated with QA, backend engineers, and government stakeholders to deliver production-ready fixes."
+        "Engineered and maintained 5+ large-scale, mission-critical government web applications end-to-end — spanning development, testing, and technical/architecture documentation — using React.js, Laravel, and PostgreSQL, serving thousands of citizens.",
+        "Built and shipped the West Bengal Taxation Tribunal (WBTT) website from the ground up to production, delivering a responsive, secure, and user-friendly public-facing platform for a government tribunal.",
+        "Slashed page load and API response times to ~5s by engineering loader-based UX optimizations, local storage caching, and middleware improvements across REST API integrations and database-driven features.",
+        "Eliminated 100+ security vulnerabilities across multiple applications — including XSS, insecure file uploads, and authentication flaws — achieving full security-audit compliance and reducing application risk.",
+        "Architected and optimized scalable application designs, boosting performance, reliability, and maintainability while enhancing user experience across existing government systems.",
+        "Drove UI/user-level testing and security assessments within a 2–5 member cross-functional team, uncovering defects and vulnerabilities and partnering with QA, backend engineers, and government stakeholders to deliver production-ready fixes."
       ],
-      skills: ["React.js", "Laravel", "PostgreSQL", "REST APIs", "WBTT Portal", "XSS Remediation", "Security Audits", "Linux", "Agile"]
+      skills: ["React.js", "Laravel", "PostgreSQL", "REST APIs", "WBTT Website", "XSS Remediation", "Security Audits", "Linux", "Agile/Scrum"]
     },
     {
       role: "Python Intern",
       company: "UniConverge Technologies",
-      client: null,
+      engagement: null,
       period: "Jun 2023 – Jul 2023",
       location: "Kolkata, India",
       type: "Internship",
       description:
-        "Engineered backend automation scripts and contributed to software module development.",
+        "Built Python scripts and contributed to production software modules with backend workflows.",
       bulletPoints: [
-        "Developed Python-based scripts and contributed to software modules, gaining hands-on experience in backend development workflows and production-level code practices.",
-        "Assisted in automated data handling, algorithm implementation, and debugging codebase components."
+        "Built Python-based scripts and contributed to production software modules, gaining hands-on experience in backend development workflows and production-level code practices."
       ],
-      skills: ["Python", "Scripting", "Backend Workflows", "Data Processing"]
+      skills: ["Python", "Backend Development", "Production Code Practices", "Scripting"]
     }
   ];
 
@@ -42,7 +41,7 @@ function Experience() {
     {
       icon: <FaShieldAlt className="text-emerald-400 text-xl" />,
       title: "Security Hardening",
-      desc: "Led remediation of multiple critical vulnerabilities flagged in government security audits (XSS, insecure file uploads, broken authentication) — resulting in zero critical findings post-audit."
+      desc: "Led remediation of 100+ critical vulnerabilities flagged in government security audits, including XSS, insecure file uploads, and broken authentication — resulting in zero critical findings post-audit."
     },
     {
       icon: <FaRocket className="text-indigo-400 text-xl" />,
@@ -66,7 +65,7 @@ function Experience() {
             Career Journey
           </div>
           <h2 className="text-3xl sm:text-5xl font-extrabold text-white tracking-tight">
-            Professional Experience
+            Work Experience
           </h2>
           <p className="text-slate-400 text-base sm:text-lg mt-4 leading-relaxed">
             Hands-on software engineering delivering secure government solutions and scalable digital infrastructure.
@@ -96,9 +95,9 @@ function Experience() {
                     {exp.company}
                   </p>
                   
-                  {exp.client && (
-                    <p className="text-xs sm:text-sm font-medium text-slate-400 mt-0.5 flex items-center gap-1.5">
-                      <span className="text-slate-500">Client:</span> {exp.client}
+                  {exp.engagement && (
+                    <p className="text-xs sm:text-sm font-medium text-slate-400 mt-1 flex items-center gap-1.5">
+                      <span className="text-indigo-400/80">•</span> {exp.engagement}
                     </p>
                   )}
                 </div>

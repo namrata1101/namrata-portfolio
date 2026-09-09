@@ -50,10 +50,10 @@ function Navbar() {
 
           {/* CV Button */}
           <a
-            href="/Namrata_Sarkar_Resume.pdf"
+            href="/Namrata Sarkar_Resume.pdf"
             target="_blank"
             rel="noopener noreferrer"
-            className="flex items-center gap-2 px-4 py-2 text-xs font-semibold uppercase tracking-wider text-indigo-300 bg-indigo-950/60 border border-indigo-500/30 hover:border-indigo-400/80 hover:bg-indigo-600 hover:text-white rounded-lg transition-all duration-300 shadow-sm hover:shadow-indigo-500/25"
+            className="flex items-center gap-2.5 px-4 py-2 text-xs font-semibold uppercase tracking-wider text-indigo-300 bg-indigo-950/60 border border-indigo-500/30 hover:border-indigo-400/80 hover:bg-indigo-600 hover:text-white rounded-lg transition-all duration-300 shadow-sm hover:shadow-indigo-500/25"
           >
             <FaFileAlt className="text-xs" />
             <span>Resume</span>
@@ -88,7 +88,7 @@ function Navbar() {
           </ul>
           <div className="pt-4 border-t border-slate-800/80 flex flex-col gap-3">
             <a
-              href="/Namrata_Sarkar_Resume.pdf"
+              href="/Namrata Sarkar_Resume.pdf"
               target="_blank"
               rel="noopener noreferrer"
               onClick={() => setIsOpen(false)}

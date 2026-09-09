@@ -31,7 +31,7 @@ function Footer() {
             <FaGithub size={16} />
           </a>
           <a
-            href="https://www.linkedin.com/in/namrata-sarkar-46b328202/"
+            href="https://www.linkedin.com/in/namratasarkar9"
             target="_blank"
             rel="noreferrer"
             className="p-2.5 bg-slate-900 hover:bg-slate-800 border border-slate-800 text-slate-300 hover:text-indigo-400 rounded-xl transition-colors"
