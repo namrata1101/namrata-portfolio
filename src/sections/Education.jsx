@@ -3,10 +3,28 @@ import { FaGraduationCap, FaCertificate, FaAward, FaCalendarAlt, FaMapMarkerAlt 
 function Education() {
   const certifications = [
     {
+      title: "Conversational AI on Vertex AI and Dialogflow CX",
+      issuer: "Google Cloud Skill Badge",
+      description: "Hands-on expertise designing, building, testing, and deploying conversational AI agents with Google Cloud Vertex AI and Dialogflow CX.",
+      category: "Conversational AI"
+    },
+    {
+      title: "Conversational Insights",
+      issuer: "Google Cloud Skill Badge",
+      description: "Analyzing customer conversation datasets, topic modeling, sentiment analytics, and conversational intelligence on Google Cloud.",
+      category: "Conversational AI"
+    },
+    {
       title: "Accenture Nordics Developer Virtual Experience Program",
       issuer: "Accenture",
       description: "Hands-on engineering simulation focusing on software architecture, code debugging, and solution delivery.",
       category: "Software Engineering"
+    },
+    {
+      title: "React – Virtual Experience / Certification",
+      issuer: "Certification Program",
+      description: "In-depth component lifecycles, state management, hooks, and responsive web application patterns.",
+      category: "Frontend Specialization"
     },
     {
       title: "Deloitte Technology Virtual Experience Program",
@@ -19,12 +37,6 @@ function Education() {
       issuer: "Datacom",
       description: "Full-stack development processes, agile teamwork, and backend API engineering.",
       category: "Full-Stack Development"
-    },
-    {
-      title: "React – Virtual Experience / Certification",
-      issuer: "Certification Program",
-      description: "In-depth component lifecycles, state management, hooks, and responsive web application patterns.",
-      category: "Frontend Specialization"
     }
   ];
 

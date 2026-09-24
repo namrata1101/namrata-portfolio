@@ -2,6 +2,7 @@ import {
   FaReact, 
   FaPhp, 
   FaPython, 
+  FaJava,
   FaJsSquare, 
   FaHtml5, 
   FaCss3Alt, 
@@ -13,14 +14,22 @@ import {
   FaLayerGroup, 
   FaTasks, 
   FaCogs,
-  FaLock
+  FaLock,
+  FaRobot,
+  FaBrain,
+  FaComments,
+  FaChartLine,
+  FaCloud
 } from "react-icons/fa";
 import { 
   SiPostgresql, 
   SiMysql, 
   SiLaravel, 
   SiNodedotjs, 
-  SiPostman 
+  SiPostman,
+  SiOpenai,
+  SiGooglecloud,
+  SiGoogle
 } from "react-icons/si";
 
 function Skills() {
@@ -31,6 +40,7 @@ function Skills() {
       color: "from-amber-500/20 to-yellow-500/10",
       skills: [
         { name: "JavaScript", icon: <FaJsSquare className="text-yellow-400" /> },
+        { name: "Java", icon: <FaJava className="text-red-400" /> },
         { name: "PHP", icon: <FaPhp className="text-indigo-400" /> },
         { name: "SQL", icon: <FaDatabase className="text-emerald-400" /> },
         { name: "HTML5", icon: <FaHtml5 className="text-orange-500" /> },
@@ -88,6 +98,21 @@ function Skills() {
         { name: "REST APIs", icon: <FaServer className="text-sky-400" /> },
         { name: "Linux", icon: <FaLinux className="text-yellow-300" /> },
         { name: "Agile / Scrum", icon: <FaTasks className="text-indigo-400" /> }
+      ]
+    },
+    {
+      category: "AI & Conversational AI",
+      description: "Generative AI, conversational agents, and LLM-assisted workflows",
+      color: "from-fuchsia-500/20 to-purple-500/10",
+      skills: [
+        { name: "ChatGPT", icon: <SiOpenai className="text-emerald-400" /> },
+        { name: "Claude", icon: <FaBrain className="text-amber-400" /> },
+        { name: "Gemini", icon: <SiGoogle className="text-blue-400" /> },
+        { name: "DeepSeek", icon: <FaRobot className="text-cyan-400" /> },
+        { name: "Google Antigravity", icon: <FaRobot className="text-purple-400" /> },
+        { name: "Vertex AI", icon: <SiGooglecloud className="text-sky-400" /> },
+        { name: "Dialogflow CX", icon: <FaComments className="text-teal-400" /> },
+        { name: "Conversational Insights", icon: <FaChartLine className="text-indigo-400" /> }
       ]
     },
     {
